@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%" height="340" style="background:#090d16;border-radius:16px;overflow:hidden;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#080c14"/>
+    </linearGradient>
+
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="35%" stop-color="#818cf8"/>
+      <stop offset="70%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+
+    <linearGradient id="glow-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.05"/>
+    </linearGradient>
+
+    <linearGradient id="card-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.5"/>
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="30" result="blur" />
+    </filter>
+
+    <filter id="soft-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+
+    <!-- Keyframe Animations -->
+    <style>
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px) scale(1); }
+        50% { transform: translateY(-12px) scale(1.02); }
+      }
+      @keyframes floatReverse {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(10px) rotate(1deg); }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.28; transform: scale(1); }
+        50% { opacity: 0.45; transform: scale(1.08); }
+      }
+      @keyframes flowDots {
+        0% { stroke-dashoffset: 0; }
+        100% { stroke-dashoffset: -60; }
+      }
+      @keyframes pillSlide1 {
+        0%, 100% { transform: translateX(0px); }
+        50% { transform: translateX(12px); }
+      }
+      @keyframes pillSlide2 {
+        0%, 100% { transform: translateX(0px); }
+        50% { transform: translateX(-12px); }
+      }
+
+      .floating-bg { animation: floatSlow 8s ease-in-out infinite; }
+      .floating-alt { animation: floatReverse 10s ease-in-out infinite; }
+      .glowing-orb { animation: pulseGlow 6s ease-in-out infinite; }
+      .dynamic-flow { stroke-dasharray: 6 10; animation: flowDots 3s linear infinite; }
+      .pill-dyn1 { animation: pillSlide1 5s ease-in-out infinite; }
+      .pill-dyn2 { animation: pillSlide2 6s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="100%" height="100%" fill="url(#bg-grad)" rx="16"/>
+
+  <!-- Dynamic Glowing Mesh Background Orbs (Behind everything) -->
+  <circle cx="200" cy="80" r="140" fill="url(#glow-grad)" filter="url(#glow)" class="glowing-orb"/>
+  <circle cx="1020" cy="220" r="160" fill="url(#glow-grad)" filter="url(#glow)" class="glowing-orb" style="animation-delay: -3s;"/>
+  <circle cx="600" cy="300" r="110" fill="#38bdf8" opacity="0.12" filter="url(#glow)"/>
+
+  <!-- Dynamic Animated Circuit/Flow lines in Background -->
+  <g opacity="0.25">
+    <path d="M 80,180 Q 250,90 420,170 T 800,160 T 1120,240" fill="none" stroke="#38bdf8" stroke-width="2" class="dynamic-flow"/>
+    <path d="M 50,260 Q 220,320 450,240 T 900,260 T 1160,140" fill="none" stroke="#c084fc" stroke-width="1.5" class="dynamic-flow" style="animation-direction: reverse;"/>
+  </g>
+
+  <!-- Interactive / Dynamic Decorative Technology Pills (Floating Subtly in Back/Mid-ground) -->
+  <g class="pill-dyn1" opacity="0.82">
+    <!-- LMS Pill Left -->
+    <g transform="translate(60, 42)">
+      <rect width="130" height="34" rx="17" fill="url(#card-grad)" stroke="#38bdf8" stroke-opacity="0.3" stroke-width="1"/>
+      <circle cx="18" cy="17" r="5" fill="#38bdf8"/>
+      <text x="32" y="22" fill="#94a3b8" font-size="12" font-weight="600">🎓 LMS Core</text>
+    </g>
+    <!-- Live Classroom Pill Right -->
+    <g transform="translate(980, 48)">
+      <rect width="160" height="34" rx="17" fill="url(#card-grad)" stroke="#818cf8" stroke-opacity="0.3" stroke-width="1"/>
+      <circle cx="18" cy="17" r="5" fill="#818cf8"/>
+      <text x="32" y="22" fill="#94a3b8" font-size="12" font-weight="600">📹 Virtual Classroom</text>
+    </g>
+  </g>
+
+  <g class="pill-dyn2" opacity="0.82">
+    <!-- Course Commerce Pill Left Bottom -->
+    <g transform="translate(75, 268)">
+      <rect width="170" height="34" rx="17" fill="url(#card-grad)" stroke="#c084fc" stroke-opacity="0.3" stroke-width="1"/>
+      <circle cx="18" cy="17" r="5" fill="#c084fc"/>
+      <text x="32" y="22" fill="#94a3b8" font-size="12" font-weight="600">💳 Course Commerce</text>
+    </g>
+    <!-- AI Tutoring Pill Right Bottom -->
+    <g transform="translate(970, 260)">
+      <rect width="155" height="34" rx="17" fill="url(#card-grad)" stroke="#f472b6" stroke-opacity="0.3" stroke-width="1"/>
+      <circle cx="18" cy="17" r="5" fill="#f472b6"/>
+      <text x="32" y="22" fill="#94a3b8" font-size="12" font-weight="600">🤖 AI Tutoring</text>
+    </g>
+  </g>
+
+  <!-- FOREGROUND: Solid, Clear, Unobstructed Content Container -->
+  <!-- Top Badge / Category -->
+  <g transform="translate(470, 42)">
+    <rect width="260" height="30" rx="15" fill="#1e293b" stroke="#334155" stroke-width="1" filter="url(#soft-shadow)"/>
+    <text x="130" y="20" text-anchor="middle" fill="#38bdf8" font-size="12" font-weight="700" letter-spacing="1.5">⚡ CURATED EDTECH &amp; LMS DIRECTORY</text>
+  </g>
+
+  <!-- Main Title Header in Absolute Foreground -->
+  <text x="600" y="132" text-anchor="middle" font-size="38" font-weight="900" fill="url(#accent-grad)" letter-spacing="-0.5" filter="url(#soft-shadow)">
+    Online Tutoring &amp; Course Delivery
+  </text>
+
+  <!-- Subtitle Header in Absolute Foreground -->
+  <text x="600" y="174" text-anchor="middle" font-size="17" font-weight="500" fill="#f1f5f9" letter-spacing="0.2">
+    Top Hosted SaaS Platforms &amp; Open-Source Learning Management Systems
+  </text>
+
+  <text x="600" y="204" text-anchor="middle" font-size="14" font-weight="400" fill="#94a3b8">
+    Virtual Classrooms • AI-Powered Tutoring • Enterprise MOOCs • Creator Commerce
+  </text>
+
+  <!-- Foreground Metric / Feature Highlights Badges -->
+  <g transform="translate(330, 238)">
+    <!-- Metric 1 -->
+    <g transform="translate(0, 0)">
+      <rect width="165" height="36" rx="10" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
+      <text x="82" y="23" text-anchor="middle" fill="#e2e8f0" font-size="12" font-weight="600">🚀 SaaS Platforms</text>
+    </g>
+    <!-- Metric 2 -->
+    <g transform="translate(185, 0)">
+      <rect width="185" height="36" rx="10" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
+      <text x="92" y="23" text-anchor="middle" fill="#e2e8f0" font-size="12" font-weight="600">⭐ Open-Source LMS</text>
+    </g>
+    <!-- Metric 3 -->
+    <g transform="translate(390, 0)">
+      <rect width="165" height="36" rx="10" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
+      <text x="82" y="23" text-anchor="middle" fill="#e2e8f0" font-size="12" font-weight="600">📊 Pricing &amp; Scale</text>
+    </g>
+  </g>
+</svg>
