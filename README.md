@@ -1,140 +1,227 @@
-# Awesome-Online-Tutoring-Course-Delivery
+# Awesome Online Tutoring & Course Delivery Platforms [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-# Awesome Online Tutoring & Course Delivery
-
-> A curated list of top Online Tutoring and Course Delivery platforms — both SaaS/Hosted commercial course platforms and open-source alternatives for creating, delivering, and monetizing online learning experiences.
+> A curated list of top Online Tutoring, Virtual Classroom, and Course Delivery platforms — featuring SaaS creator platforms, open-source Learning Management Systems (LMS), and developer tools for building, delivering, and monetizing digital education experiences.
+>
 > 🌟 Star this repo if you find it useful! 🌟
+
+---
+
+## 🔍 Overview & SEO Highlights
+
+Whether you are launching an online tutoring business, scaling digital academies, or self-hosting open-source educational software, this directory aggregates:
+* **Hosted & Commercial Course Creation Software (SaaS)** with verified pricing, free trial limits, and company scale.
+* **Open-Source Learning Management Systems (LMS)** and virtual classrooms with live star badges, technology stacks, and deployment guides.
+* **Market Insights** detailing EdTech sector dynamics, market size, and fragmentation trends.
 
 ---
 
 ## 📋 Table of Contents
 
+- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 - [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Teachable](#teachable)
-  - [Thinkific](#thinkific)
-  - [Kajabi](#kajabi)
-  - [Podia](#podia)
-  - [LearnWorlds](#learnworlds)
 - [Open-Source Software](#-open-source-software)
-  - [Euron Open LMS](#euron-open-lms)
-  - [LearnHouse](#learnhouse)
-  - [Scibly](#scibly)
-  - [Oppia](#oppia)
-  - [LiaScript](#liascript)
-  - [VibeLMS](#vibelms)
+  - [BigBlueButton](#bigbluebutton)
   - [Open edX](#open-edx)
   - [Moodle](#moodle)
+  - [Oppia](#oppia)
+  - [Canvas LMS](#canvas-lms)
+  - [Frappe LMS](#frappe-lms)
+  - [LearnHouse](#learnhouse)
+  - [Chamilo LMS](#chamilo-lms)
+  - [Pupilfirst](#pupilfirst)
+  - [Opencast](#opencast)
+  - [ILIAS](#ilias)
+  - [LiaScript](#liascript)
+  - [Scibly](#scibly)
+  - [Euron Open LMS](#euron-open-lms)
+  - [VibeLMS](#vibelms)
+- [Feature Comparison Matrix](#-feature-comparison-matrix)
+- [Contributing](#-contributing)
+- [License](#-license)
+
+---
+
+## 📈 Sector Overview & Market Dynamics
+
+The global online tutoring and digital course delivery market is estimated between **$11 billion and $13 billion** (with broader EdTech and learning management infrastructure exceeding **$18 billion to $36 billion**), growing at a **CAGR of ~12.5% to 15.6%**. 
+
+The sector is **moderately fragmented** rather than a winner-take-all monopoly: while a handful of well-capitalized platforms command mindshare in creator commerce (e.g., Kajabi, Teachable) and higher education (e.g., Canvas, Moodle), low barriers to entry and distinct vertical specializations (K-12 supplemental tutoring, language learning, corporate upskilling, and private cohort academies) allow diverse hosted solutions and open-source alternatives to thrive.
 
 ---
 
 ## 🟦 SaaS / Hosted Platforms
 
-Commercial, cloud-hosted Online Tutoring and Course Delivery platforms. These are not open-source but are included as reference points for feature comparison.
+Cloud-hosted commercial platforms for online course delivery, digital coaching, tutoring storefronts, and knowledge commerce. Sorted by company scale (valuation / annual revenue descending).
 
-### Teachable
-**Type:** All-in-one course creation and sales platform
-Teachable provides course authoring, student management, payment processing, and marketing tools in a single platform. It is positioned for creators and small businesses wanting to sell online courses without technical overhead, with tiered pricing based on features and transaction fees.
-
-### Thinkific
-**Type:** Course platform with strong customization
-Thinkific offers course building, quizzes, certificates, and a customizable storefront, with a free plan for getting started. It is often compared to Teachable, with strengths in design flexibility and a lower barrier to entry.
-
-### Kajabi
-**Type:** Knowledge commerce platform with marketing automation
-Kajabi combines course delivery with marketing funnels, email automation, and landing pages, positioning itself as a complete business platform for knowledge entrepreneurs. Pricing is higher than competitors but bundles marketing tools that would otherwise require separate subscriptions.
-
-### Podia
-**Type:** Creator platform for courses, downloads, and communities
-Podia provides course hosting, digital downloads, webinars, and community features with no transaction fees on paid plans. It is positioned for creators wanting an all-in-one storefront without per-sale commissions.
-
-### LearnWorlds
-**Type:** Course platform with interactive video and assessments
-LearnWorlds provides course authoring with interactive video, assessments, certificates, and a built-in community. It is positioned for educators and businesses wanting a more sophisticated learning experience than basic course hosting.
+| Platform | Valuation / Revenue Scale | Starting Pricing | Free Tier / Free Trial Limits | Key Specialization |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Kajabi](https://kajabi.com/)** | **~$2.0 Billion valuation** (~$10B+ GMV generated by creators) | **$179/mo** (or $143/mo billed annually) for Basic tier | **14-day free trial** (up to 3 products, 1 website, 1 community, up to 10k contacts; 0% transaction fee; 30-day money-back guarantee) | All-in-one knowledge commerce, integrated funnel builder & email marketing automation |
+| **[Teachable](https://teachable.com/)** | **~$250 Million acquisition valuation** (Subsidiary of Hotmart, ~$26M+ ARR at acquisition) | **$39/mo** (or $29/mo billed annually) + 7.5% transaction fee for Starter tier | **7-day free trial** of paid tiers (test core course-builder features and storefront templates; permanent free plan retired) | Creator-friendly course authoring, student checkout, and integrated tax/payment handling |
+| **[Thinkific](https://www.thinkific.com/)** | **~$100 Million market cap / ~$75M ARR** (Publicly traded: TSX: THNC) | **$109/mo** (or $82/mo billed annually) for Start tier | **30-day free trial** (unlimited courses, up to 10k active learners, 2 admin accounts, interactive quizzes; permanent free plan retired) | Customizable storefronts, student community spaces, and native course authoring |
+| **[LearnWorlds](https://www.learnworlds.com/)** | **~$25M+ ARR** (Privately held, scaled mid-market EdTech) | **$29/mo** (or $24/mo billed annually) + $5 per enrollment for Starter tier | **30-day free trial** (no credit card required; full access to chosen tier features like course builder and interactive testing) | Interactive video branching, learner assessments, white-label mobile apps, and SCORM support |
+| **[Podia](https://www.podia.com/)** | **~$10M+ ARR** (Bootstrapped / privately held creator platform) | **$49/mo** (or $42/mo billed annually) + 5% transaction fee for Mover tier | **14-day free trial** (no credit card required; full builder access, up to 100 email subscribers, digital downloads & courses preview) | All-in-one digital downloads, lightweight coaching, courses, and community spaces |
 
 ---
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven Online Tutoring and Course Delivery tools. The open-source ecosystem spans **full LMS platforms with commerce**, **AI-native learning platforms**, **interactive tutoring systems**, and **Markdown-based course authoring**.
+Self-hosted, community-driven online tutoring environments, virtual classrooms, and LMS solutions. Sorted in descending order by GitHub stargazers.
 
-### Euron Open LMS
-**Stack:** TypeScript / Node.js / PostgreSQL / Terraform | **License:** Open Source (self-hosted)
-Euron Open LMS is a comprehensive open-source, self-hosted LMS covering the full course delivery lifecycle: course catalog with full-text search and filters, a classroom with HLS video player (quality, speed, captions, resume, watermark), articles and PDFs, quizzes with question banks and server-side grading, assignments with rubrics and AI-assisted draft grading, verifiable certificates with public verification pages, reviews and Q&A, and a full commerce layer with Stripe and Razorpay billing . The **control plane** provides role-scoped admin areas for admins, support, finance, and instructors, with revenue/MRR dashboards, curriculum builder, learner management, grading, orders and refunds, coupons, moderation, and audit logs . Security includes identity from tokens (never body), access decisions in one place, payment signature verification in constant time, short-lived access tokens with refresh token rotation, and two-factor authentication . Deploys to AWS via Terraform with multi-AZ production configuration, or locally with Floci . A companion **mobile app** for iOS and Android supports offline video downloads and push notifications .
-**Best for:** Organizations wanting a production-grade, self-hosted LMS with real payment processing, verifiable certificates, and full administrative control, accepting the AWS/Terraform deployment complexity.
-
-### LearnHouse
-**Stack:** Next.js / FastAPI / PostgreSQL / Hocuspocus | **License:** AGPL-3.0 (Enterprise features separate)
-LearnHouse is a next-generation open-source learning platform with a **block-based, Notion-like content editor**, courses and collections, assignments, discussions, podcasts, analytics, and **AI-generated interactive playgrounds** [citation:11]. It includes **real code execution with auto-grading in 30+ languages**, real-time collaborative whiteboards, auto-generated certificates, user groups, and SEO optimization [citation:11]. The official CLI (`npx learnhouse@latest setup`) handles self-hosting, updates, and backups with a setup wizard walking through domain, database, and admin account configuration [citation:11]. **Important licensing note:** The core is AGPL-3.0, with enterprise features (payments, SSO, multi-org) under a separate license [citation:11].
-**Best for:** Educators and organizations wanting a modern, feature-rich LMS with code execution and AI playgrounds, accepting the AGPL licensing and enterprise gating for payments/SSO.
-
-### Scibly
-**Stack:** Next.js / TypeScript / PostgreSQL / Prisma | **License:** AGPLv3 (core) / Enterprise (billing)
-Scibly is an open-source, **AI-native learning platform** that transforms documents and internal knowledge into structured, interactive courses in minutes [citation:3]. It includes course authoring, learning, and a notebook, with real-time collaboration via Hocuspocus/Yjs, Stripe payments (enterprise slice), transactional email, and product analytics [citation:3]. Self-hosting via Docker Compose spins up PostgreSQL and all three apps in one command [citation:3]. **Important licensing note:** Everything outside the `ee/` directory is AGPLv3; the `ee/` directory (Stripe billing) is source-available but requires a separate license for production use [citation:3].
-**Best for:** Teams wanting an AI-native platform that turns existing knowledge into courses quickly, accepting the open-core licensing model with billing gated to enterprise.
-
-### Oppia
-**Stack:** Python / Angular / Google App Engine | **License:** Apache-2.0
-Oppia is an online learning tool that enables anyone to create and share **interactive activities called "explorations"** that simulate a one-on-one conversation with a tutor, letting students learn by doing while getting feedback . It is a nonprofit project with **6,771 GitHub stars and 5,646 forks**, built by a community for the community [citation:14]. The platform includes free lessons on basic mathematics, with plans to expand to science and financial literacy, targeting learners who lack access to educational resources . **Trade-off:** It is focused on interactive explorations rather than full course commerce or video delivery, and runs on Google App Engine which may limit self-hosting flexibility.
-**Best for:** Educators and organizations wanting interactive, conversation-style tutoring activities with a proven nonprofit-backed platform, accepting the App Engine deployment model.
-
-### LiaScript
-**Stack:** JavaScript / Markdown | **License:** BSD-3-Clause
-LiaScript is an open-source interpreter that turns **static Markdown files into fully interactive learning experiences** rendered directly in the browser, even offline [citation:7]. Features include quizzes, cloze tests, surveys, **text-to-speech in multiple languages**, live code execution (JavaScript, Python via Pyodide, MicroPython), ASCII diagrams, PWA support for offline use, and export to PDF, SCORM, and IMS [citation:7]. Courses are plain Markdown files hosted anywhere (GitHub, etc.) and opened via a URL, with a LiveEditor for browser-based authoring [citation:7]. **Trade-off:** It is a course authoring and delivery interpreter rather than a full LMS with commerce, student management, or analytics.
-**Best for:** Educators and NGOs wanting to create interactive, offline-capable courses using plain Markdown, particularly for low-bandwidth or multilingual contexts.
-
-### VibeLMS
-**Stack:** React / Node.js / PostgreSQL / Drizzle | **License:** Open Source
-VibeLMS is a modern LMS with hierarchical course structure (Course → Chapter → Lesson), YouTube video integration, rich text content with TipTap editor, interactive questions and assignments, and **progress tracking for both authenticated and anonymous users** [citation:9]. It includes JWT-based authentication with HTTP-only cookies, role-based access control (Teachers/Students), public course preview without registration, and Docker containerization [citation:9]. **Trade-off:** It uses YouTube for video hosting rather than self-hosted HLS, and its feature set is narrower than Euron or LearnHouse.
-**Best for:** Small teams wanting a straightforward open-source LMS with YouTube integration and anonymous user support, accepting a lighter feature set.
-
-### Open edX
-**Stack:** Python / Django | **License:** AGPL-3.0
-Open edX is the open-source platform behind edX, one of the largest MOOC providers, with course authoring, video delivery, assessments, certificates, and a massive ecosystem of extensions [citation:13]. It is positioned for universities and large organizations wanting a proven, scalable platform for online courses. **Trade-off:** It is a heavy, complex deployment requiring significant infrastructure and DevOps expertise, and the feature set is oriented toward academic institutions rather than individual creators.
-**Best for:** Universities and large institutions wanting a battle-tested MOOC platform, accepting the substantial operational overhead.
-
-### Moodle
-**Stack:** PHP / MySQL/PostgreSQL | **License:** GPL-3.0
-Moodle is the most widely deployed open-source LMS globally, used by universities, schools, and corporate training programs. It provides course management, quizzes, assignments, forums, gradebooks, and a vast plugin ecosystem, with integrations for video conferencing and content delivery [citation:13]. **Trade-off:** The interface is dated compared to modern platforms, and the breadth of configuration options can be overwhelming for small teams.
-**Best for:** Educational institutions and organizations wanting a proven, extensible LMS with a massive community and plugin ecosystem, accepting a dated UI and configuration complexity.
+| Project | Stars | Stack | License | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[BigBlueButton](#bigbluebutton)** | [![GitHub stars](https://img.shields.io/github/stars/bigbluebutton/bigbluebutton?style=social&color=white)](https://github.com/bigbluebutton/bigbluebutton/stargazers) | Scala / Java / Node.js / HTML5 | LGPL-3.0 | Real-time web conferencing system designed specifically for online tutoring and virtual classrooms. |
+| **[Open edX](#open-edx)** | [![GitHub stars](https://img.shields.io/github/stars/openedx/openedx-platform?style=social&color=white)](https://github.com/openedx/openedx-platform/stargazers) | Python / Django / React | AGPL-3.0 | Battle-tested, enterprise-grade MOOC and course delivery engine originally developed by MIT and Harvard. |
+| **[Moodle](#moodle)** | [![GitHub stars](https://img.shields.io/github/stars/moodle/moodle?style=social&color=white)](https://github.com/moodle/moodle/stargazers) | PHP / MySQL / PostgreSQL | GPL-3.0 | The world's most widely deployed modular open-source Learning Management System. |
+| **[Oppia](#oppia)** | [![GitHub stars](https://img.shields.io/github/stars/oppia/oppia?style=social&color=white)](https://github.com/oppia/oppia/stargazers) | Python / Angular / TypeScript | Apache-2.0 | Interactive, conversational tutoring platform that teaches through exploratory guided lessons. |
+| **[Canvas LMS](#canvas-lms)** | [![GitHub stars](https://img.shields.io/github/stars/instructure/canvas-lms?style=social&color=white)](https://github.com/instructure/canvas-lms/stargazers) | Ruby on Rails / React / PostgreSQL | AGPL-3.0 | Open-source core of the modern LMS powering leading global universities and school districts. |
+| **[Frappe LMS](#frappe-lms)** | [![GitHub stars](https://img.shields.io/github/stars/frappe/lms?style=social&color=white)](https://github.com/frappe/lms/stargazers) | Python / Frappe Framework / Vue.js | AGPL-3.0 | 100% open-source modern LMS with course builder, discussion boards, quizzes, and certification tracking. |
+| **[LearnHouse](#learnhouse)** | [![GitHub stars](https://img.shields.io/github/stars/learnhouse/learnhouse?style=social&color=white)](https://github.com/learnhouse/learnhouse/stargazers) | Next.js / FastAPI / PostgreSQL | AGPL-3.0 | Notion-like block-based learning platform with live coding playgrounds, collaborative whiteboards, and AI exercises. |
+| **[Chamilo LMS](#chamilo-lms)** | [![GitHub stars](https://img.shields.io/github/stars/chamilo/chamilo-lms?style=social&color=white)](https://github.com/chamilo/chamilo-lms/stargazers) | PHP / Symfony / MySQL | GPL-3.0 | Intuitive, e-learning and training management system emphasizing accessibility and simple course authoring. |
+| **[Pupilfirst](#pupilfirst)** | [![GitHub stars](https://img.shields.io/github/stars/pupilfirst/pupilfirst?style=social&color=white)](https://github.com/pupilfirst/pupilfirst/stargazers) | Ruby on Rails / React / PostgreSQL | Apache-2.0 | Asynchronous school engine driven by student milestone submissions, direct tutor reviews, and iterative feedback. |
+| **[Opencast](#opencast)** | [![GitHub stars](https://img.shields.io/github/stars/opencast/opencast?style=social&color=white)](https://github.com/opencast/opencast/stargazers) | Java / OSGi / JavaScript | ECL-2.0 | Open-source lecture recording, video processing, and academic video delivery management system. |
+| **[ILIAS](#ilias)** | [![GitHub stars](https://img.shields.io/github/stars/ILIAS-eLearning/ILIAS?style=social&color=white)](https://github.com/ILIAS-eLearning/ILIAS/stargazers) | PHP / MariaDB | GPL-3.0 | Comprehensive SCORM-certified learning management system developed for German higher education and defense. |
+| **[LiaScript](#liascript)** | [![GitHub stars](https://img.shields.io/github/stars/LiaScript/LiaScript?style=social&color=white)](https://github.com/LiaScript/LiaScript/stargazers) | JavaScript / Elm / Markdown | BSD-3-Clause | Markdown compiler turning simple text files into interactive web-based educational courses and quizzes. |
+| **[Scibly](#scibly)** | [![GitHub stars](https://img.shields.io/github/stars/scibly-dev/scibly?style=social&color=white)](https://github.com/scibly-dev/scibly/stargazers) | Next.js / TypeScript / PostgreSQL | AGPL-3.0 | AI-native learning platform turning internal documentation, PDFs, and notes into interactive microlearning courses. |
+| **[Euron Open LMS](#euron-open-lms)** | [![GitHub stars](https://img.shields.io/github/stars/euron-sde-team/euron-open-lms?style=social&color=white)](https://github.com/euron-sde-team/euron-open-lms/stargazers) | TypeScript / Node.js / PostgreSQL | Open Source | Full-lifecycle LMS with HLS video classrooms, verifiable certificates, Stripe/Razorpay commerce, and mobile apps. |
+| **[VibeLMS](#vibelms)** | [![GitHub stars](https://img.shields.io/github/stars/whitespots-robot/VibeLMS?style=social&color=white)](https://github.com/whitespots-robot/VibeLMS/stargazers) | React / Node.js / Drizzle / PostgreSQL | Open Source | Lightweight LMS with YouTube video integration, TipTap rich text editing, and anonymous learner progress tracking. |
 
 ---
 
-## 📊 Comparison at a Glance
+### Detailed Open-Source Project Profiles
 
-| Software | License | Stack | Course Commerce | Video | AI/Interactive | Self-Hosted | Best For |
-|----------|---------|-------|-----------------|-------|----------------|-------------|----------|
-| **Teachable** | Proprietary | Cloud | ✅ | ✅ | ❌ | ❌ | Creator course sales |
-| **Thinkific** | Proprietary | Cloud | ✅ | ✅ | ❌ | ❌ | Customizable course storefront |
-| **Euron Open LMS** | Open Source | TS/Node/Postgres | ✅ Stripe/Razorpay | ✅ HLS | ✅ AI grading | ✅ | Full self-hosted LMS + commerce |
-| **LearnHouse** | AGPL-3.0 | Next.js/FastAPI | (Enterprise) | ✅ | ✅ Code execution | ✅ | Modern LMS + AI playgrounds |
-| **Scibly** | AGPLv3 | Next.js/Postgres | (Enterprise) | (Check) | ✅ AI-native | ✅ | Document-to-course AI |
-| **Oppia** | Apache-2.0 | Python/Angular | ❌ | ❌ | ✅ Interactive explorations | (App Engine) | Conversation-style tutoring |
-| **LiaScript** | BSD-3 | Markdown/JS | ❌ | (Check) | ✅ Interactive Markdown | ✅ | Markdown courses + offline |
-| **VibeLMS** | Open Source | React/Node/Postgres | ❌ | YouTube | ❌ | ✅ | Simple LMS + YouTube |
-| **Open edX** | AGPL-3.0 | Python/Django | ❌ | ✅ | ❌ | ✅ | University MOOC platform |
-| **Moodle** | GPL-3.0 | PHP/DB | (Plugins) | (Plugins) | (Plugins) | ✅ | Institutional LMS |
+#### BigBlueButton
+* **GitHub Repository:** [bigbluebutton/bigbluebutton](https://github.com/bigbluebutton/bigbluebutton)
+* **Stack:** Scala / Java / Node.js / HTML5 | **License:** LGPL-3.0
+* **Overview:** BigBlueButton is an open-source virtual classroom platform built specifically for online tutoring, school districts, and higher education. It delivers high-fidelity audio/video conferencing, real-time presentation sharing, multi-user digital whiteboards, breakout rooms, polling, screen sharing, and automatic session recording. Seamlessly integrates with Moodle, Canvas, and Open edX via LTI.
+* **Best for:** Schools, tutors, and institutions needing dedicated live virtual classroom infrastructure rather than generic meeting tools.
+
+#### Open edX
+* **GitHub Repository:** [openedx/openedx-platform](https://github.com/openedx/openedx-platform)
+* **Stack:** Python / Django / React | **License:** AGPL-3.0
+* **Overview:** Open edX is the open-source platform originally developed by Harvard and MIT to power edX.org. Designed to scale to millions of concurrent students, it provides deep hierarchical course authoring (Studio), video delivery, timed exams, automated grading, cohort discussions, verifiable credentials, and rich analytics via Open edX Insights.
+* **Best for:** Universities, national initiatives, and massive online academy deployments requiring battle-tested reliability at scale.
+
+#### Moodle
+* **GitHub Repository:** [moodle/moodle](https://github.com/moodle/moodle)
+* **Stack:** PHP / MySQL / PostgreSQL | **License:** GPL-3.0
+* **Overview:** Moodle is the world's most ubiquitous open-source LMS, supporting tens of thousands of educational institutions. It features an extensive plugin architecture (over 1,900 community add-ons), competency-based learning pathways, customizable grading rubrics, SCORM/IMS compliance, and built-in mobile applications.
+* **Best for:** Traditional K-12 and university education institutions seeking an extensible, standards-compliant, and well-supported LMS ecosystem.
+
+#### Oppia
+* **GitHub Repository:** [oppia/oppia](https://github.com/oppia/oppia)
+* **Stack:** Python / Angular / TypeScript | **License:** Apache-2.0
+* **Overview:** Oppia is an interactive, nonprofit learning platform that simulates one-on-one personal tutoring conversations through interactive branching scenarios ("explorations"). Rather than passively reading text or watching videos, students actively answer questions and receive targeted, pedagogically sound feedback based on their specific misconceptions.
+* **Best for:** Nonprofits, foundations, and STEM educators wanting interactive, conversational tutoring experiences tailored to underserved learners.
+
+#### Canvas LMS
+* **GitHub Repository:** [instructure/canvas-lms](https://github.com/instructure/canvas-lms)
+* **Stack:** Ruby on Rails / React / PostgreSQL | **License:** AGPL-3.0
+* **Overview:** Canvas LMS by Instructure is one of the leading enterprise learning platforms globally. The open-source core provides course construction, rich SpeedGrader workflow, calendar integration, student communications, modular assignment sequencing, and comprehensive LTI support for external edtech tools.
+* **Best for:** Higher education academies and schools looking for a modern, teacher-friendly alternative to legacy LMS platforms.
+
+#### Frappe LMS
+* **GitHub Repository:** [frappe/lms](https://github.com/frappe/lms)
+* **Stack:** Python / Frappe Framework / Vue.js | **License:** AGPL-3.0
+* **Overview:** Built on the robust Frappe/ERPNext ecosystem, Frappe LMS provides a clean, 100% open-source learning portal out of the box. Includes modern course creation, video embeds, batch and cohort scheduling, interactive quizzes, discussion boards, student progress monitoring, and certificate generation.
+* **Best for:** Businesses, training academies, and startups already utilizing Frappe/ERPNext or looking for a sleek, modern, zero-license-cost LMS.
+
+#### LearnHouse
+* **GitHub Repository:** [learnhouse/learnhouse](https://github.com/learnhouse/learnhouse)
+* **Stack:** Next.js / FastAPI / PostgreSQL / Hocuspocus | **License:** AGPL-3.0
+* **Overview:** LearnHouse is an AI-powered, modern learning management platform featuring a Notion-like block editor, auto-generated interactive exercises, collaborative whiteboards, podcasts, and native live code execution supporting 30+ programming languages.
+* **Best for:** Coding bootcamps, technical instructors, and modern creator schools wanting developer sandboxes alongside course content.
+
+#### Chamilo LMS
+* **GitHub Repository:** [chamilo/chamilo-lms](https://github.com/chamilo/chamilo-lms)
+* **Stack:** PHP / Symfony / MySQL | **License:** GPL-3.0
+* **Overview:** Backed by the Chamilo Association in Spain and Belgium, Chamilo is an accessible, intuitive LMS focused on ease of use. It features visual course authoring, skill-tree tracking, certificate generation, time-limited testing, and support for multi-institution deployments.
+* **Best for:** European and multilingual educational institutions requiring high accessibility, low hosting footprint, and simple teacher onboarding.
+
+#### Pupilfirst
+* **GitHub Repository:** [pupilfirst/pupilfirst](https://github.com/pupilfirst/pupilfirst)
+* **Stack:** Ruby on Rails / React / PostgreSQL | **License:** Apache-2.0
+* **Overview:** Pupilfirst is designed for asynchronous coaching and career mentorship. Instead of tracking passive video views, the curriculum revolves around student task completions. Students submit work, and tutors review assignments with rubric-based feedback and iterative resubmissions.
+* **Best for:** Accelerators, coding bootcamps, and vocational programs focusing on coach-assisted, milestone-driven learning.
+
+#### Opencast
+* **GitHub Repository:** [opencast/opencast](https://github.com/opencast/opencast)
+* **Stack:** Java / OSGi / JavaScript | **License:** ECL-2.0
+* **Overview:** Opencast is an enterprise-grade academic video management platform. It automates video scheduling, multi-stream recording (combining presenter camera and slides), video trimming, automated transcription, and secure distribution across LMS platforms.
+* **Best for:** University media teams and high-volume video education providers managing recording hardware and multi-stream lectures.
+
+#### ILIAS
+* **GitHub Repository:** [ILIAS-eLearning/ILIAS](https://github.com/ILIAS-eLearning/ILIAS)
+* **Stack:** PHP / MariaDB | **License:** GPL-3.0
+* **Overview:** ILIAS is a versatile, German-origin LMS certified for SCORM 1.2 and SCORM 2004. Widely used across German universities, armed forces, and enterprise institutions, it features an integrated test system, learning modules, workspace portfolios, and granular role management.
+* **Best for:** Public sector, defense, and European organizations adhering to strict data sovereignty and rigorous SCORM standards.
+
+#### LiaScript
+* **GitHub Repository:** [LiaScript/LiaScript](https://github.com/LiaScript/LiaScript)
+* **Stack:** JavaScript / Markdown / Elm | **License:** BSD-3-Clause
+* **Overview:** LiaScript transforms plain Markdown files into rich, interactive courseware with quizzes, cloze tests, embedded live code execution (Python, JS), text-to-speech narration, and offline PWA capabilities without requiring a server backend.
+* **Best for:** Individual educators, open-educational-resource (OER) advocates, and low-connectivity environments.
+
+#### Scibly
+* **GitHub Repository:** [scibly-dev/scibly](https://github.com/scibly-dev/scibly)
+* **Stack:** Next.js / TypeScript / PostgreSQL | **License:** AGPL-3.0
+* **Overview:** Scibly is an open-source, AI-first platform that converts unstructured knowledge bases, documentation, and PDFs into gamified microlearning courses. Includes collaborative note-taking and Docker deployment.
+* **Best for:** Internal corporate onboarding and turning product documentation into structured training.
+
+#### Euron Open LMS
+* **GitHub Repository:** [euron-sde-team/euron-open-lms](https://github.com/euron-sde-team/euron-open-lms)
+* **Stack:** TypeScript / Node.js / PostgreSQL / Terraform | **License:** Open Source
+* **Overview:** A self-hosted LMS designed for course sales and monetization. Features HLS video streaming, automated grading, cryptographically verifiable certificates, Stripe & Razorpay billing, and companion React Native mobile apps for iOS and Android.
+* **Best for:** Commercial course businesses wanting complete ownership over billing, learner data, and video delivery on AWS.
+
+#### VibeLMS
+* **GitHub Repository:** [whitespots-robot/VibeLMS](https://github.com/whitespots-robot/VibeLMS)
+* **Stack:** React / Node.js / PostgreSQL / Drizzle | **License:** Open Source
+* **Overview:** A lightweight LMS boilerplate featuring YouTube video integration, TipTap rich-text editing, JWT cookie authentication, and anonymous learner progress tracking.
+* **Best for:** Developers looking for a minimal, customizable starter codebase for video-based tutorials.
+
+---
+
+## 📊 Feature Comparison Matrix
+
+| Platform / Software | Category | Primary Stack | Video Delivery | Live Tutoring / Classroom | Payments & Commerce | Self-Hosted |
+| :--- | :--- | :--- | :--- | :--- | :--- | :---: |
+| **Kajabi** | SaaS | Proprietary Cloud | ✅ Wistia Cloud | ❌ (Add-on) | ✅ Built-in (0% fee) | ❌ |
+| **Teachable** | SaaS | Proprietary Cloud | ✅ Hosted Video | ❌ (Integration) | ✅ Built-in (7.5% - 0%) | ❌ |
+| **Thinkific** | SaaS | Proprietary Cloud | ✅ Hosted Video | ✅ Live Cohorts | ✅ TCommerce / Stripe | ❌ |
+| **LearnWorlds** | SaaS | Proprietary Cloud | ✅ Interactive Video | ❌ (Integration) | ✅ Integrated Stripe/PayPal | ❌ |
+| **Podia** | SaaS | Proprietary Cloud | ✅ Hosted Video | ❌ (Webinar Embed) | ✅ Integrated Stripe/PayPal | ❌ |
+| **BigBlueButton** | Open Source | Scala / Java / JS | ✅ Recordings | ✅ Full Virtual Classroom | ❌ | ✅ |
+| **Open edX** | Open Source | Python / Django | ✅ HLS / YouTube / S3 | ❌ (Plugin) | ✅ (eCommerce plugin) | ✅ |
+| **Moodle** | Open Source | PHP / PostgreSQL / MySQL| ✅ Plugin / Embed | ✅ Plugin (BBB/Zoom) | ✅ Plugins (Stripe/PayPal) | ✅ |
+| **Oppia** | Open Source | Python / Angular | ❌ Explorations | ❌ Conversational | ❌ | ✅ (GCP) |
+| **Canvas LMS** | Open Source | Ruby on Rails / React | ✅ Hosted / Embed | ✅ LTI Integrations | ❌ (SIS / LTI) | ✅ |
+| **Frappe LMS** | Open Source | Python / Vue.js | ✅ Video Embeds | ❌ | ✅ ERPNext Integration | ✅ |
+| **LearnHouse** | Open Source | Next.js / FastAPI | ✅ Video Lessons | ✅ Whiteboards / Code | ⚠️ (Enterprise tier) | ✅ |
+| **Chamilo LMS** | Open Source | PHP / Symfony | ✅ Direct / Video | ✅ Video Plugins | ✅ Plugins | ✅ |
+| **Pupilfirst** | Open Source | Ruby on Rails / React | ✅ Embed / Upload | ❌ Async Mentorship | ❌ | ✅ |
+| **Opencast** | Open Source | Java / OSGi | ✅ Automated Video Mgr | ❌ Lecture Capture | ❌ | ✅ |
+| **ILIAS** | Open Source | PHP / MariaDB | ✅ SCORM / Upload | ✅ Plugins | ✅ Plugins | ✅ |
+| **LiaScript** | Open Source | Markdown / JS | ✅ Markdown Embed | ❌ Interactive Text | ❌ | ✅ (Client) |
+| **Scibly** | Open Source | Next.js / TypeScript | ✅ Microlearning | ❌ AI Interactive | ⚠️ (Enterprise tier) | ✅ |
+| **Euron Open LMS** | Open Source | TypeScript / Node.js | ✅ Self-hosted HLS | ❌ | ✅ Stripe & Razorpay | ✅ |
+| **VibeLMS** | Open Source | React / Node.js | ✅ YouTube Embed | ❌ | ❌ | ✅ |
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source Online Tutoring or Course Delivery tool that should be listed here, please open a pull request with:
+Contributions to expand this list are warmly welcomed! Please ensure submissions adhere to the following criteria:
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
+* **Open-Source Software:** Must link to a public repository with an OSI-approved or recognized open-source license, active maintenance (commits within the last 12 months), and clear self-hosting instructions.
+* **SaaS Platforms:** Must provide transparent starting pricing tiers, verifiable free tier/trial limits, and distinct pedagogical or delivery capabilities.
 
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source.
-
-**Note on the open-source ecosystem:** Online course delivery splits between **full LMS platforms with commerce** (Euron Open LMS with Stripe/Razorpay and verifiable certificates , LearnHouse with code execution and AI playgrounds [citation:11]), **AI-native platforms** (Scibly for document-to-course conversion [citation:3]), **interactive tutoring systems** (Oppia's conversation-style explorations ), and **lightweight Markdown-based authoring** (LiaScript [citation:7]). **Euron Open LMS** is the most complete open-source option for organizations wanting to sell courses with real payment processing and full administrative control, while **LearnHouse** offers the most modern authoring experience with AI and code execution. No open-source project replicates the full marketing automation bundle of Kajabi or the polished storefront of Teachable, but combinations of these platforms with dedicated marketing tools can cover most creator needs.
+To add or update an entry, please submit a pull request with:
+1. Platform / Software name and official URL
+2. Star badge (for open-source repositories) linking to stargazers
+3. Clear tech stack, license, and primary specialization
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
-
----
-
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+This curated directory is made available under the [Creative Commons Zero v1.0 Universal (CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/) license. Individual software projects and trademarks belong to their respective creators and organizations.
