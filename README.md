@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?styl==for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Online-Tutoring-Course-Delivery/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Online-Tutoring-Course-Delivery?color=yellow&style=flat-square" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Online-Tutoring-Course-Delivery/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Online-Tutoring-Course-Delivery?color=yellow&style=flat-square" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Online-Tutoring-Course-Delivery/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Online-Tutoring-Course-Delivery?color=orange&style=flat-square" alt="GitHub forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Online-Tutoring-Course-Delivery/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg?style=flat-square" alt="License: CC0 1.0" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -22,7 +22,7 @@
 
 Whether you are launching an online tutoring business, scaling digital academies, or self-hosting open-source educational software, this directory aggregates:
 * 💼 **Hosted & Commercial Course Creation Software (SaaS)** with verified pricing, free trial limits, and company scale.
-* 💻 **Open-Source Learning Management Systems (LMS)** and virtual classrooms with live star badges, technology stacks, and deployment guides.
+* 💻 **Open-Source Learning Management Systems (LMS)** and virtual classrooms with live Stars_Badges, technology stacks, and deployment guides.
 * 📊 **Market Insights** detailing EdTech sector dynamics, market size, and fragmentation trends.
 
 ---
@@ -81,23 +81,23 @@ Cloud-hosted commercial platforms for online course delivery, digital coaching, 
 
 Self-hosted, community-driven online tutoring environments, virtual classrooms, and LMS solutions. Sorted in descending order by GitHub stargazers. ⭐
 
-| Project | Stars ⭐ | Stack 🛠️ | License 📜 | Description 📝 |
+| Project | GitHub_Stars ⭐ | Stack 🛠️ | License 📜 | Description 📝 |
 | :--- | :--- | :--- | :--- | :--- |
-| **[BigBlueButton](#-bigbluebutton)** | [![GitHub stars](https://img.shields.io/github/stars/bigbluebutton/bigbluebutton?style=social&color=white)](https://github.com/bigbluebutton/bigbluebutton/stargazers) | Scala / Java / Node.js / HTML5 | LGPL-3.0 | 📹 Real-time web conferencing system designed specifically for online tutoring and virtual classrooms. |
-| **[Open edX](#%EF%B8%8F-open-edx)** | [![GitHub stars](https://img.shields.io/github/stars/openedx/openedx-platform?style=social&color=white)](https://github.com/openedx/openedx-platform/stargazers) | Python / Django / React | AGPL-3.0 | 🏛️ Battle-tested, enterprise-grade MOOC and course delivery engine originally developed by MIT and Harvard. |
-| **[Moodle](#-moodle)** | [![GitHub stars](https://img.shields.io/github/stars/moodle/moodle?style=social&color=white)](https://github.com/moodle/moodle/stargazers) | PHP / MySQL / PostgreSQL | GPL-3.0 | 🎒 The world's most widely deployed modular open-source Learning Management System. |
-| **[Oppia](#-oppia)** | [![GitHub stars](https://img.shields.io/github/stars/oppia/oppia?style=social&color=white)](https://github.com/oppia/oppia/stargazers) | Python / Angular / TypeScript | Apache-2.0 | 💬 Interactive, conversational tutoring platform that teaches through exploratory guided lessons. |
-| **[Canvas LMS](#-canvas-lms)** | [![GitHub stars](https://img.shields.io/github/stars/instructure/canvas-lms?style=social&color=white)](https://github.com/instructure/canvas-lms/stargazers) | Ruby on Rails / React / PostgreSQL | AGPL-3.0 | 🏫 Open-source core of the modern LMS powering leading global universities and school districts. |
-| **[Frappe LMS](#-frappe-lms)** | [![GitHub stars](https://img.shields.io/github/stars/frappe/lms?style=social&color=white)](https://github.com/frappe/lms/stargazers) | Python / Frappe Framework / Vue.js | AGPL-3.0 | ⚡ 100% open-source modern LMS with course builder, discussion boards, quizzes, and certification tracking. |
-| **[LearnHouse](#-learnhouse)** | [![GitHub stars](https://img.shields.io/github/stars/learnhouse/learnhouse?style=social&color=white)](https://github.com/learnhouse/learnhouse/stargazers) | Next.js / FastAPI / PostgreSQL | AGPL-3.0 | 🧱 Notion-like block-based learning platform with live coding playgrounds, collaborative whiteboards, and AI exercises. |
-| **[Chamilo LMS](#-chamilo-lms)** | [![GitHub stars](https://img.shields.io/github/stars/chamilo/chamilo-lms?style=social&color=white)](https://github.com/chamilo/chamilo-lms/stargazers) | PHP / Symfony / MySQL | GPL-3.0 | 🌐 Intuitive, e-learning and training management system emphasizing accessibility and simple course authoring. |
-| **[Pupilfirst](#-pupilfirst)** | [![GitHub stars](https://img.shields.io/github/stars/pupilfirst/pupilfirst?style=social&color=white)](https://github.com/pupilfirst/pupilfirst/stargazers) | Ruby on Rails / React / PostgreSQL | Apache-2.0 | 🎯 Asynchronous school engine driven by student milestone submissions, direct tutor reviews, and iterative feedback. |
-| **[Opencast](#-opencast)** | [![GitHub stars](https://img.shields.io/github/stars/opencast/opencast?style=social&color=white)](https://github.com/opencast/opencast/stargazers) | Java / OSGi / JavaScript | ECL-2.0 | 🎥 Open-source lecture recording, video processing, and academic video delivery management system. |
-| **[ILIAS](#%EF%B8%8F-ilias)** | [![GitHub stars](https://img.shields.io/github/stars/ILIAS-eLearning/ILIAS?style=social&color=white)](https://github.com/ILIAS-eLearning/ILIAS/stargazers) | PHP / MariaDB | GPL-3.0 | 🛡️ Comprehensive SCORM-certified learning management system developed for German higher education and defense. |
-| **[LiaScript](#-liascript)** | [![GitHub stars](https://img.shields.io/github/stars/LiaScript/LiaScript?style=social&color=white)](https://github.com/LiaScript/LiaScript/stargazers) | JavaScript / Elm / Markdown | BSD-3-Clause | 📝 Markdown compiler turning simple text files into interactive web-based educational courses and quizzes. |
-| **[Scibly](#-scibly)** | [![GitHub stars](https://img.shields.io/github/stars/scibly-dev/scibly?style=social&color=white)](https://github.com/scibly-dev/scibly/stargazers) | Next.js / TypeScript / PostgreSQL | AGPL-3.0 | 🧠 AI-native learning platform turning internal documentation, PDFs, and notes into interactive microlearning courses. |
-| **[Euron Open LMS](#-euron-open-lms)** | [![GitHub stars](https://img.shields.io/github/stars/euron-sde-team/euron-open-lms?style=social&color=white)](https://github.com/euron-sde-team/euron-open-lms/stargazers) | TypeScript / Node.js / PostgreSQL | Open Source | 💳 Full-lifecycle LMS with HLS video classrooms, verifiable certificates, Stripe/Razorpay commerce, and mobile apps. |
-| **[VibeLMS](#-vibelms)** | [![GitHub stars](https://img.shields.io/github/stars/whitespots-robot/VibeLMS?style=social&color=white)](https://github.com/whitespots-robot/VibeLMS/stargazers) | React / Node.js / Drizzle / PostgreSQL | Open Source | 📺 Lightweight LMS with YouTube video integration, TipTap rich text editing, and anonymous learner progress tracking. |
+| **[BigBlueButton](#-bigbluebutton)** | [![GitHub_Stars](https://img.shields.io/github/stars/bigbluebutton/bigbluebutton?style=social&color=white)](https://github.com/bigbluebutton/bigbluebutton/stargazers) | Scala / Java / Node.js / HTML5 | LGPL-3.0 | 📹 Real-time web conferencing system designed specifically for online tutoring and virtual classrooms. |
+| **[Open edX](#%EF%B8%8F-open-edx)** | [![GitHub_Stars](https://img.shields.io/github/stars/openedx/openedx-platform?style=social&color=white)](https://github.com/openedx/openedx-platform/stargazers) | Python / Django / React | AGPL-3.0 | 🏛️ Battle-tested, enterprise-grade MOOC and course delivery engine originally developed by MIT and Harvard. |
+| **[Moodle](#-moodle)** | [![GitHub_Stars](https://img.shields.io/github/stars/moodle/moodle?style=social&color=white)](https://github.com/moodle/moodle/stargazers) | PHP / MySQL / PostgreSQL | GPL-3.0 | 🎒 The world's most widely deployed modular open-source Learning Management System. |
+| **[Oppia](#-oppia)** | [![GitHub_Stars](https://img.shields.io/github/stars/oppia/oppia?style=social&color=white)](https://github.com/oppia/oppia/stargazers) | Python / Angular / TypeScript | Apache-2.0 | 💬 Interactive, conversational tutoring platform that teaches through exploratory guided lessons. |
+| **[Canvas LMS](#-canvas-lms)** | [![GitHub_Stars](https://img.shields.io/github/stars/instructure/canvas-lms?style=social&color=white)](https://github.com/instructure/canvas-lms/stargazers) | Ruby on Rails / React / PostgreSQL | AGPL-3.0 | 🏫 Open-source core of the modern LMS powering leading global universities and school districts. |
+| **[Frappe LMS](#-frappe-lms)** | [![GitHub_Stars](https://img.shields.io/github/stars/frappe/lms?style=social&color=white)](https://github.com/frappe/lms/stargazers) | Python / Frappe Framework / Vue.js | AGPL-3.0 | ⚡ 100% open-source modern LMS with course builder, discussion boards, quizzes, and certification tracking. |
+| **[LearnHouse](#-learnhouse)** | [![GitHub_Stars](https://img.shields.io/github/stars/learnhouse/learnhouse?style=social&color=white)](https://github.com/learnhouse/learnhouse/stargazers) | Next.js / FastAPI / PostgreSQL | AGPL-3.0 | 🧱 Notion-like block-based learning platform with live coding playgrounds, collaborative whiteboards, and AI exercises. |
+| **[Chamilo LMS](#-chamilo-lms)** | [![GitHub_Stars](https://img.shields.io/github/stars/chamilo/chamilo-lms?style=social&color=white)](https://github.com/chamilo/chamilo-lms/stargazers) | PHP / Symfony / MySQL | GPL-3.0 | 🌐 Intuitive, e-learning and training management system emphasizing accessibility and simple course authoring. |
+| **[Pupilfirst](#-pupilfirst)** | [![GitHub_Stars](https://img.shields.io/github/stars/pupilfirst/pupilfirst?style=social&color=white)](https://github.com/pupilfirst/pupilfirst/stargazers) | Ruby on Rails / React / PostgreSQL | Apache-2.0 | 🎯 Asynchronous school engine driven by student milestone submissions, direct tutor reviews, and iterative feedback. |
+| **[Opencast](#-opencast)** | [![GitHub_Stars](https://img.shields.io/github/stars/opencast/opencast?style=social&color=white)](https://github.com/opencast/opencast/stargazers) | Java / OSGi / JavaScript | ECL-2.0 | 🎥 Open-source lecture recording, video processing, and academic video delivery management system. |
+| **[ILIAS](#%EF%B8%8F-ilias)** | [![GitHub_Stars](https://img.shields.io/github/stars/ILIAS-eLearning/ILIAS?style=social&color=white)](https://github.com/ILIAS-eLearning/ILIAS/stargazers) | PHP / MariaDB | GPL-3.0 | 🛡️ Comprehensive SCORM-certified learning management system developed for German higher education and defense. |
+| **[LiaScript](#-liascript)** | [![GitHub_Stars](https://img.shields.io/github/stars/LiaScript/LiaScript?style=social&color=white)](https://github.com/LiaScript/LiaScript/stargazers) | JavaScript / Elm / Markdown | BSD-3-Clause | 📝 Markdown compiler turning simple text files into interactive web-based educational courses and quizzes. |
+| **[Scibly](#-scibly)** | [![GitHub_Stars](https://img.shields.io/github/stars/scibly-dev/scibly?style=social&color=white)](https://github.com/scibly-dev/scibly/stargazers) | Next.js / TypeScript / PostgreSQL | AGPL-3.0 | 🧠 AI-native learning platform turning internal documentation, PDFs, and notes into interactive microlearning courses. |
+| **[Euron Open LMS](#-euron-open-lms)** | [![GitHub_Stars](https://img.shields.io/github/stars/euron-sde-team/euron-open-lms?style=social&color=white)](https://github.com/euron-sde-team/euron-open-lms/stargazers) | TypeScript / Node.js / PostgreSQL | Open Source | 💳 Full-lifecycle LMS with HLS video classrooms, verifiable certificates, Stripe/Razorpay commerce, and mobile apps. |
+| **[VibeLMS](#-vibelms)** | [![GitHub_Stars](https://img.shields.io/github/stars/whitespots-robot/VibeLMS?style=social&color=white)](https://github.com/whitespots-robot/VibeLMS/stargazers) | React / Node.js / Drizzle / PostgreSQL | Open Source | 📺 Lightweight LMS with YouTube video integration, TipTap rich text editing, and anonymous learner progress tracking. |
 
 ---
 
@@ -231,7 +231,7 @@ Contributions to expand this list are warmly welcomed! Please ensure submissions
 
 To add or update an entry, please submit a pull request with:
 1. Platform / Software name and official URL
-2. Star badge (for open-source repositories) linking to stargazers
+2. Stars_Badge (for open-source repositories) linking to stargazers
 3. Clear tech stack, license, and primary specialization
 
 ---
